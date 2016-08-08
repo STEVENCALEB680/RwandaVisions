@@ -1,0 +1,13 @@
+<DOCTYPE html>
+<html>
+<body>
+<p> This gives a a result for the calculations made</p>
+<p id="demo"></p>
+<script>
+function Myfunction{(a,b)
+         return a*b;
+}
+document.getElementById("demo").innerHTML=myFunction(90,80);
+</script>
+</body>
+</html>
